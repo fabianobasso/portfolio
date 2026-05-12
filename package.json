@@ -10,6 +10,8 @@
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
     "@tailwindcss/vite": "^4.1.11",
     "joi": "^18.0.0",
     "pinia": "^3.0.3",

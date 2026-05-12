@@ -2,10 +2,10 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
     {
-        path: '/',
-        name: 'Login App',
-        component: () => import('@/views/login/Login.vue'),
-        meta: { titulo: 'Login' }
+        path: '',
+        name: 'Portfolio',
+        component: () => import('@/views/PortfolioVw.vue'),
+        meta: { titulo: 'Sobre Mim' }
     }
 ]
 
@@ -16,8 +16,8 @@ const router = createRouter({
 
 router.beforeEach((to, _form, next) => {
     document.title = to.meta.titulo
-        ? `Configurar Clinica - ${to.meta.titulo}`
-        : 'Configurar Clinica'
+        ? `${to.meta.titulo} | ${import.meta.env.VITE_APP}`
+        : `${import.meta.env.VITE_APP}`
     next()
 })
 

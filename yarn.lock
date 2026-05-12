@@ -316,6 +316,18 @@
   dependencies:
     "@hapi/hoek" "^11.0.2"
 
+"@headlessui/vue@^1.7.23":
+  version "1.7.23"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.23.tgz#7fe19dbeca35de9e6270c82c78c4864e6a6f7391"
+  integrity sha512-JzdCNqurrtuu0YW6QaDtR2PIYCKPUWq28csDyMvN4zmGccmE7lz40Is6hc3LA4HFeCI7sekZ/PQMTNmn9I/4Wg==
+  dependencies:
+    "@tanstack/vue-virtual" "^3.0.0-beta.60"
+
+"@heroicons/vue@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@heroicons/vue/-/vue-2.2.0.tgz#d81f14eed448eec9859849ed63facd3f29bca2b3"
+  integrity sha512-G3dbSxoeEKqbi/DFalhRxJU4mTXJn7GwZ7ae8NuEQzd1bqdd0jAbdaBZlHPcvPD2xI1iGzNVB4k20Un2AguYPw==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"
@@ -720,6 +732,18 @@
     "@tailwindcss/node" "4.1.11"
     "@tailwindcss/oxide" "4.1.11"
     tailwindcss "4.1.11"
+
+"@tanstack/virtual-core@3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.14.0.tgz#c8839d0d702b8af47c0e57d4ab72fc3ba8bbf3da"
+  integrity sha512-JLANqGy/D6k4Ujmh8Tr25lGimuOXNiaVyXaCAZS0W+1390sADdGnyUdSWNIfd49gebtIxGMij4IktRVzrdr12Q==
+
+"@tanstack/vue-virtual@^3.0.0-beta.60":
+  version "3.13.24"
+  resolved "https://registry.yarnpkg.com/@tanstack/vue-virtual/-/vue-virtual-3.13.24.tgz#f6c76f452dff6c1add9934f6b8023b9c8dce06c0"
+  integrity sha512-A0k2qF0zFSUStXSZkGXABouXr2Tw2Ztl/cVIYG9qy84uR8W7UNjAcX3DvzBS3YnDcwvLxab8v7dbmYBZ39itDA==
+  dependencies:
+    "@tanstack/virtual-core" "3.14.0"
 
 "@tybys/wasm-util@^0.10.0":
   version "0.10.0"
