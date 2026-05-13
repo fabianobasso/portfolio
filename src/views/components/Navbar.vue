@@ -41,16 +41,24 @@ const ativarMenuMobile = () => {
 
 <template>
     <nav
-        class="h-[100px] sticky top-0 z-50 w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between bg-gradient-to-r from-indigo-700 to-violet-500 transition-all">
-        <a href=""> Fabiano Basso Antonio </a>
+        class="h-[140px] sticky  top-0 z-50 w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between  transition-all">
+        <div class=" foto-perfil">
+            <img class="foto-circulo" src="./../../assets/img/fb-perfil.png" alt="Foto de Perfil">
+            <div class="exibir-nome">
+                <span class="nome">Fabiano Basso Antonio</span>
+                <span class="cargo">Desenvolvedor Full Stack</span>
+            </div>
+        </div>
 
-        <ul class="text-[#f38881] md:flex hidden items-center gap-10">
+        <ul class="text-[#518167] md:flex hidden items-center gap-10">
             <li v-for="menu in menuPortifolio" :key="menu.nome">
-                <a class="hover:text-[#f38881]/70 transition" :href="menu.link">{{ menu.nome }}</a>
+                <a class="hover:text-[#518167]/70 transition" :href="menu.link">{{ menu.nome }}</a>
             </li>
         </ul>
 
-        <div class="icones-rede-social">Icones</div>
+        <div class="icones-rede-social">
+            <i class="pi pi-check"></i>
+        </div>
 
         <button aria-label="menu-btn" type="button" class="menu-btn inline-block md:hidden active:scale-90 transition"
             @click="ativarMenuMobile">
@@ -61,8 +69,9 @@ const ativarMenuMobile = () => {
         </button>
 
         <div :class="isAtivoToggle ? '' : 'hidden'"
-            class="mobile-menu absolute top-[70px] left-0 w-full bg-gradient-to-r from-indigo-700 to-violet-500 p-6 md:hidden">
-            <ul class="flex flex-col space-y-2 text-[#f38881] text-lg">
+            class="mobile-menu absolute top-[120px] left-0 w-full bg-gradient-to-r from-gray-500 to-gray-900 p-6 md:hidden">
+
+            <ul class="flex flex-col space-y-2 text-[#518167] text-lg">
                 <li v-for="menu in menuPortifolio">
                     <a :href="menu.link" class="text-sm">{{ menu.nome }}</a>
                 </li>
@@ -74,6 +83,77 @@ const ativarMenuMobile = () => {
 </template>
 
 <style scoped lang="scss">
+nav {
+    padding: 10px;
+    background: linear-gradient(to right, #1d1e1f, #22222b);
+    border-radius: 8px;
+}
+
+nav {
+    .foto-perfil {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 14px;
+
+        .foto-circulo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #518167;
+        }
+
+        @media (max-width: 768px) {
+            .foto-circulo {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        .exibir-nome {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                &.nome {
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    padding-left: 10px;
+                    line-height: 16px;
+                }
+
+                &.cargo {
+                    font-size: 0.9rem;
+                    padding-left: 10px;
+                    color: #518167;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+
+                @media (max-width: 768px) {
+                    &.nome {
+                        font-size: 1.2rem;
+                        padding-left: 4px;
+                    }
+
+                    &.cargo {
+                        padding-left: 4px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+}
+
+.mobile-menu {
+    background: linear-gradient(to right, #1d1e1f, #22222b);
+}
+
 @media (max-width: 768px) {
     .icones-rede-social {
         display: none;

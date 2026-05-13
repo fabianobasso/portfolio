@@ -23,7 +23,8 @@ export default defineConfig(({ mode }) => {
         css: {
             preprocessorOptions: {
                 scss: {
-                    additionalData: `@import "/src/assets/scss/global.scss";`
+                    api: 'modern-compiler',
+                    additionalData: `@use "/src/assets/scss/global.scss" as *;`
                 }
             }
         }

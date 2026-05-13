@@ -7,6 +7,7 @@ import vuestic from './vuestiic-ui.config'
 import 'vuestic-ui/styles/essential.css'
 import 'vuestic-ui/styles/typography.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.min.css'
+import 'primeicons/primeicons.css'
 
 // Import routers app
 import router from './router'
