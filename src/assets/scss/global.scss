@@ -1,3 +1,5 @@
+@use './animations.scss'as *;
+
 @for $i from 1 through 100 {
     .w-percent-#{$i} {
         width: #{$i}#{'%'};
@@ -6,3 +8,4 @@
 
 $bgContainer: #FFFFFF;
 $textDefault: #FFFFFF;
+$textoDestaque: #518167;

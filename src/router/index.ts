@@ -5,7 +5,23 @@ const routes: Array<RouteRecordRaw> = [
         path: '/portfolio/',
         name: 'Portfolio',
         component: () => import('@/views/PortfolioVw.vue'),
-        meta: { titulo: 'Sobre Mim' }
+        children: [
+            {
+                path: '',
+                meta: { titulo: 'Sobre Mim' },
+                component: () => import('@/views/SobreMimVw.vue')
+            },
+            {
+                path: 'contato',
+                meta: { titulo: 'Contato' },
+                component: () => import('@/views/ContatoVw.vue')
+            },
+            {
+                path: 'projetos',
+                meta: { titulo: 'Projetos' },
+                component: () => import('@/views/ProjetosVw.vue')
+            }
+        ]
     }
 ]
 

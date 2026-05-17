@@ -26,11 +26,22 @@ import Rodape from './components/Rodape.vue';
 .container {
     background: linear-gradient(to right, #1d1e1f, #22222b);
     height: 95%;
-    width: 60%;
+    width: 1200px;
     box-shadow: 6px 10px 8px 0px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-base {
+        height: 90vh;
+    }
+
+    .container {
+        width: 96%;
+        max-height: 94vh;
+    }
 }
 
 @media (max-width: 768px) {

@@ -19,6 +19,7 @@
     "tailwindcss": "^4.1.11",
     "vue": "^3.5.17",
     "vue-router": "4",
+    "vue3-lottie": "^3.3.1",
     "vuestic-ui": "^1.10.3"
   },
   "devDependencies": {
@@ -39,6 +40,7 @@
     "sass": "^1.99.0",
     "typescript": "^5.8.3",
     "vite": "^7.0.4",
+    "vite-plugin-static-copy": "^4.1.0",
     "vue-eslint-parser": "^10.2.0",
     "vue-tsc": "^2.2.12"
   },

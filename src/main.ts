@@ -12,10 +12,12 @@ import 'primeicons/primeicons.css'
 // Import routers app
 import router from './router'
 import { createPinia } from 'pinia'
+import Vue3Lottie from 'vue3-lottie'
 
 const app = createApp(App)
 
 app.use(vuestic)
 app.use(createPinia())
 app.use(router)
+app.use(Vue3Lottie)
 app.mount('#app')
