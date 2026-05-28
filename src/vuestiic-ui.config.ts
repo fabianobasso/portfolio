@@ -4,18 +4,10 @@ const vuestic = createVuestic({
     config: {
         colors: {
             variables: {
-                primary: '#bd93f9',
+                primary: '#518167',
                 danger: '#ff5555',
                 dark: '#282a36',
-                gray: '#44475a',
-                cvd_white: '#f8f8f2',
-                cdv_blue: '#6272a4',
-                cdv_orange: '#ffb86c',
-                cdv_yellow: '#f1fa8c',
-                cdv_green: '#50fa7b',
-                cvd_blue_ocean: '#8be9fd',
-                cvd_purple: '#bd93f9',
-                cvd_pink: '#ff79c6'
+                gray: '#44475a'
             }
         },
         icons: createIconsConfig({

@@ -27,8 +27,8 @@ const menuPortifolio = ref<MenuPortfolio[]>([
         nome: 'Projetos'
     },
     {
-        link: 'contato',
-        nome: 'Contato'
+        link: 'contatos',
+        nome: 'Contatos'
     },
     {
         link: '/portfolio/',

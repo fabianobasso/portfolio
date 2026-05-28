@@ -92,11 +92,14 @@ import MinhasStacks from './components/MinhasStacks.vue';
 
 <style scoped lang='scss'>
 .principal {
-    width: 100%;
+    margin-top: 2rem;
+    height: 90%;
+    width: 94%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+
+
 
     .texto-espera {
         opacity: 0;

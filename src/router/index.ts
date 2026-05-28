@@ -12,7 +12,7 @@ const routes: Array<RouteRecordRaw> = [
                 component: () => import('@/views/SobreMimVw.vue')
             },
             {
-                path: 'contato',
+                path: 'contatos',
                 meta: { titulo: 'Contato' },
                 component: () => import('@/views/ContatoVw.vue')
             },
