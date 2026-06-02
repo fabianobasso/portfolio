@@ -1,0 +1,41 @@
+{
+    "projetos": [
+        {
+            "periodo": "fevereiro 2018 - novembro 2018 ( Freelancer 10 meses de duração )",
+            "projeto": "Projeto: Sistema de Ponto Eletrônico ( Full Stack )",
+            "descricao": "Desenvolvimento de um sistema completo de controle de ponto eletrônico para gestão de jornadas de trabalho, permitindo registro de entrada, saída, intervalos e acompanhamento de horas trabalhadas. Atuei em todas as etapas do projeto, desde a modelagem do banco de dados até a implementação do frontend e backend.",
+            "responsabilidades_funcionalidades": [
+                "Desenvolvimento da API REST para gerenciamento de usuários, registros de ponto e relatórios.",
+                "Implementação de autenticação e controle de acesso baseado em perfis.",
+                "Criação de interface responsiva para registro e consulta de pontos.",
+                "Cálculo automático de horas trabalhadas, horas extras, atrasos e banco de horas.",
+                "Geração de relatórios e exportação de dados.",
+                "Integração com banco de dados relacional.",
+                "Implementação de validações, tratamento de erros e auditoria de registros.",
+                "Desenvolvimento de dashboards para acompanhamento de frequência e produtividade.",
+                "Aplicação de boas práticas de arquitetura, segurança e testes."
+            ],
+            "stacks": "React, TypeScript, Node.js, PostgreSQL, Docker, JWT, Git, PHP e Slim Framework.",
+            "resultado_alcancados": [
+                "Automatização do controle de jornada dos colaboradores.",
+                "Redução de erros manuais no registro de ponto.",
+                "Disponibilização de relatórios gerenciais em tempo real.",
+                "Maior conformidade com políticas internas e legislação trabalhista."
+            ],
+            "imagem": "ponto_eletorico.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Ponto Eletrônico."
+        }
+    ],
+    "modelo": [
+        {
+            "periodo": "",
+            "projeto": "",
+            "descricao": "",
+            "responsabilidades_funcionalidades": [],
+            "stacks": "",
+            "resultado_alcancados": [],
+            "imagem": "",
+            "link_mensagem_whatsapp": ""
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 import { reactive } from 'vue';
 import { useForm } from 'vuestic-ui';
 
-const { isValid } = useForm('contato')
+const { isValid, reset, validate } = useForm('contato')
 
 const contatoForm = reactive({
     nome: '',
@@ -16,7 +16,8 @@ const enviar = () => {
         return
     }
 
-    console.log(contatoForm)
+    reset()
+    alert('Mensagem Enviada com Sucesso.')
 }
 </script>
 
@@ -26,12 +27,16 @@ const enviar = () => {
             <p class="text">Vamos lá?</p>
             <p>Preencha o formulário abaixo para esclarecermos suas dúvidas e dar início ao seu projeto!</p>
             <VaForm ref="contato" class="flex flex-col gap-2 mt-5 contato-form">
-                <VaInput v-model="contatoForm.nome" name="Nome" label="Seu Nome:" required-mark />
-                <VaInput v-model="contatoForm.email" name="Email" label="Seu Email:" required-mark />
-                <VaInput v-model="contatoForm.assunto" name="Assunto" label="Assunto:" required-mark />
+                <VaInput v-model="contatoForm.nome" name="Nome" label="Seu Nome:" required-mark
+                    :rules="[(value) => (value && value.length > 0) || 'Precisa preencher o campo.']" />
+                <VaInput v-model="contatoForm.email" name="Email" label="Seu Email:" required-mark
+                    :rules="[(value) => (value && value.length > 0) || 'Precisa preencher o campo.']" />
+                <VaInput v-model="contatoForm.assunto" name="Assunto" label="Assunto:" required-mark
+                    :rules="[(value) => (value && value.length > 0) || 'Precisa preencher o campo.']" />
                 <VaTextarea v-model="contatoForm.mensagem" name="Mensagem" max-rows="6" label="Mensagem:"
-                    :resize="false" counter required-mark />
-                <VaButton @click="enviar" color="dark" gradient class="mt-0">Enviar</VaButton>
+                    :resize="false" required-mark
+                    :rules="[(value) => (value && value.length > 0) || 'Precisa preencher o campo.']" />
+                <VaButton @click="validate() && enviar()" color="dark" gradient class="mt-0">Enviar</VaButton>
             </VaForm>
         </div>
         <div class="map-contato">
@@ -66,10 +71,9 @@ const enviar = () => {
 <style scoped lang="scss">
 // Desktop
 .contato-vw {
-    margin-top: 2rem;
     display: flex;
     width: 94%;
-    height: 90%;
+    height: 95%;
     flex-direction: row;
     border-radius: 0.8rem;
     background-color: #fff;
@@ -93,7 +97,7 @@ const enviar = () => {
 
     .form-contato {
         width: 50%;
-        padding: 1.5rem;
+        padding: 1rem;
 
         .contato-form {
             ::v-deep(.va-input-label) {
@@ -168,14 +172,66 @@ const enviar = () => {
 // Responsividade para tablets
 @media screen and (max-width: 1024px) {
     .contato-vw {
-        width: 90%;
+        width: 94%;
+        flex-direction: column;
+        height: 130vh;
+
+        p {
+            text-align: justify;
+            font-size: 0.8rem;
+        }
+
+        .form-contato {
+            width: 100%;
+        }
+
+        .map-contato {
+            width: 100%;
+            height: 110vh;
+
+            .localizacao {
+                height: 50%;
+            }
+
+            .forma-contato {
+                margin-top: 0.5rem;
+                height: 10%;
+            }
+        }
     }
 }
 
 // Responsividade para Mobile
 @media (max-width: 768px) {
     .contato-vw {
-        width: 100%;
+        width: 94%;
+        flex-direction: column;
+        height: 130vh;
+
+        p {
+            text-align: justify;
+            font-size: 0.8rem;
+        }
+
+        .form-contato {
+            width: 100%;
+        }
+
+        .map-contato {
+            width: 100%;
+            height: 110vh;
+
+            .localizacao {
+                height: 50%;
+            }
+
+            .forma-contato {
+                margin-top: 0.5rem;
+                height: 10%;
+            }
+        }
+
+
     }
 }
 </style>
