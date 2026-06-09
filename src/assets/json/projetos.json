@@ -1,8 +1,36 @@
 {
     "projetos": [
         {
-            "periodo": "fevereiro 2018 - novembro 2018 ( Freelancer 10 meses de duração )",
-            "projeto": "Projeto: Sistema de Ponto Eletrônico ( Full Stack )",
+            "periodo": "Janeiro 2017 - Fevereiro 2018 ( Freelancer duração 1 ano e 2 meses )",
+            "projeto": "Projeto: Sistema de Clínica Veterinária",
+            "descricao": "Desenvolvimento de um sistema web completo para gestão de clínicas veterinárias, com foco na otimização dos processos administrativos e no acompanhamento dos atendimentos aos pacientes. Atuei como Desenvolvedor Full Stack, sendo responsável pela análise de requisitos, arquitetura da aplicação, implementação do backend, desenvolvimento da interface do usuário e integração entre os módulos do sistema.",
+            "responsabilidades_funcionalidades": [
+                "Cadastro e gerenciamento de tutores e animais.",
+                "Controle de consultas, vacinas e histórico médico.",
+                "Agendamento de atendimentos e calendário de profissionais.",
+                "Gestão de prontuários veterinários.",
+                "Controle financeiro (pagamentos, faturamento e relatórios).",
+                "Gerenciamento de estoque de medicamentos e produtos.",
+                "Sistema de autenticação e controle de acesso por perfis de usuário.",
+                "Emissão de relatórios gerenciais e indicadores operacionais.",
+                "Desenvolvimento de APIs REST para comunicação entre frontend e backend.",
+                "Modelagem e gerenciamento de banco de dados.",
+                "Implementação de regras de negócio e validações.",
+                "Criação de interfaces responsivas e intuitivas."
+            ],
+            "stacks": "Vue.js, TypeScript, Node.js, PostgreSQL, Docker, JWT, Git, Kanban, PHP e Slim Framework.",
+            "resultado_alcancados": [
+                "Automatização dos processos da clínica.",
+                "Redução do tempo de atendimento administrativo.",
+                "Centralização das informações dos pacientes e tutores.",
+                "Melhoria no controle financeiro e operacional da clínica."
+            ],
+            "imagem": "clinica_veterinaria.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Clínica Veterinária"
+        },
+        {
+            "periodo": "Fevereiro 2018 - Novembro 2018 ( Freelancer 10 meses de duração )",
+            "projeto": "Projeto: Sistema de Ponto Eletrônico",
             "descricao": "Desenvolvimento de um sistema completo de controle de ponto eletrônico para gestão de jornadas de trabalho, permitindo registro de entrada, saída, intervalos e acompanhamento de horas trabalhadas. Atuei em todas as etapas do projeto, desde a modelagem do banco de dados até a implementação do frontend e backend.",
             "responsabilidades_funcionalidades": [
                 "Desenvolvimento da API REST para gerenciamento de usuários, registros de ponto e relatórios.",
@@ -24,6 +52,135 @@
             ],
             "imagem": "ponto_eletorico.png",
             "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Ponto Eletrônico."
+        },
+        {
+            "periodo": "Janeiro 2019 - Setembro 2019 ( Contrato PJ  9 meses de duração )",
+            "projeto": "Agência de Marketing Digital",
+            "descricao": "Atuação no desenvolvimento de páginas web, landing pages, websites institucionais e sistemas personalizados para campanhas de marketing digital, garantindo alta performance, responsividade e foco na conversão de leads. Responsável por todo o ciclo de desenvolvimento, desde a análise dos requisitos até a implementação, testes e publicação dos projetos.",
+            "responsabilidades_funcionalidades": [
+                "Desenvolvimento de landing pages para campanhas de tráfego pago.",
+                "Criação de sites institucionais e páginas promocionais.",
+                "Implementação de interfaces responsivas e otimizadas para dispositivos móveis.",
+                "Integração com APIs, CRMs e ferramentas de automação de marketing.",
+                "Desenvolvimento de formulários de captura de leads e fluxos de conversão.",
+                "Otimização de SEO técnico e performance das páginas.",
+                "Configuração de rastreamento e métricas com Google Analytics e Google Tag Manager.",
+                "Manutenção, atualização e correção de sistemas e websites existentes.",
+                "Desenvolvimento frontend com foco em experiência do usuário (UX/UI).",
+                "Construção de APIs e serviços backend para integração de dados.",
+                "Gerenciamento de bancos de dados e hospedagem de aplicações.",
+                "Versionamento de código utilizando Git.",
+                "Participação em reuniões com equipes de design, marketing e produto para alinhamento de requisitos."
+            ],
+            "stacks": "HTML5, CSS3, JavaScript, TypeScript, React, Vue.js, Node.js, Express, PHP,MySQL, PostgreSQL, Git e GitHub, Google Analytics, Google Tag Manager, Integrações com CRMs e plataformas de automação de marketing",
+            "resultado_alcancados": [
+                "Desenvolvimento de páginas com foco em alta taxa de conversão.",
+                "Melhoria da performance e experiência dos usuários.",
+                "Otimização de processos de captação e gestão de leads.",
+                "Entrega de projetos alinhados às estratégias de marketing e objetivos de negócio dos clientes."
+            ],
+            "imagem": "agencia_marketing_digital.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre os projetos para: Agência de Marketing Digital"
+        },
+        {
+            "periodo": "Janeiro 2020 - Dezembro 2020 ( Freelancer 1 ano de duração )",
+            "projeto": "Plataforma Moto Entrega",
+            "descricao": "Atuei como Desenvolvedor Full Stack no desenvolvimento de uma plataforma de gestão de entregas por motociclistas, responsável por conectar clientes, entregadores e administradores em um único sistema.",
+            "responsabilidades_funcionalidades": [
+                "Desenvolvimento do frontend responsivo para web e dispositivos móveis.",
+                "Implementação de APIs REST para gerenciamento de pedidos, usuários e entregas.",
+                "Integração com sistemas de geolocalização para rastreamento em tempo real.",
+                "Desenvolvimento de funcionalidades de autenticação e controle de acesso.",
+                "Criação de dashboards administrativos para monitoramento de entregas e desempenho dos entregadores.",
+                "Modelagem e gerenciamento do banco de dados.",
+                "Integração com gateways de pagamento e sistemas de notificações.",
+                "Aplicação de boas práticas de segurança, performance e escalabilidade.",
+                "Cadastro de clientes, entregadores e administradores.",
+                "Solicitação e gerenciamento de entregas.",
+                "Rastreamento de pedidos em tempo real.",
+                "Painel administrativo com métricas operacionais.",
+                "Histórico de entregas e pagamentos.",
+                "Sistema de notificações automáticas.",
+                "Controle de status das entregas."
+            ],
+            "stacks": "Vue.js, HTML, CSS, JavaScript/TypeScript, Node.js, Express, PostgreSQL, Docker, Git, CI/CD, Cloud AWS.",
+            "resultado_alcancados": [
+                "Automatização do processo de solicitação e acompanhamento de entregas.",
+                "Redução do tempo de despacho através da distribuição inteligente de pedidos.",
+                "Monitoramento em tempo real das rotas e status das entregas.",
+                "Melhoria da experiência dos clientes e eficiência operacional da empresa."
+            ],
+            "imagem": "moto_entrega.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Plataforma Moto Entrega"
+        },
+        {
+            "periodo": "Janeiro 2021 - Outubro 2021 ( Freelancer 10 meses de duração )",
+            "projeto": "Sistema de Gestão para Pizzaria",
+            "descricao": "Plataforma web desenvolvida para modernizar e automatizar o processo de vendas e gerenciamento de uma pizzaria, oferecendo uma experiência completa para clientes, atendentes, gestores e entregadores. Atuei como Desenvolvedor Full Stack, fui responsável pela análise de requisitos, arquitetura da solução, desenvolvimento do frontend e backend, modelagem do banco de dados, criação de APIs REST, integrações externas e implantação da aplicação.",
+            "responsabilidades_funcionalidades": [
+                "Cardápio digital com categorias e personalização de produtos.",
+                "Pedido online com carrinho de compras.",
+                "Acompanhamento do status do pedido em tempo real.",
+                "Cadastro e gerenciamento de clientes.",
+                "Controle de produtos, sabores, bordas e adicionais.",
+                "Gestão de entregas e pedidos.",
+                "Relatórios financeiros e de vendas.",
+                "Painel administrativo para gestão operacional."
+            ],
+            "stacks": "Vue.js, TypeScript, PostgreSQL, Docker, Git e GitHub, Gateway de Pagamento, PHP, Slim Framework, APIs REST",
+            "resultado_alcancados": [
+                "Automatização do processo de pedidos.",
+                "Redução de erros operacionais no atendimento.",
+                "Melhor controle de estoque e vendas.",
+                "Aumento da produtividade da equipe."
+            ],
+            "imagem": "pizzaria.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Sistema de Gestão para Pizzaria"
+        },
+        {
+            "periodo": "Janeiro 2022 - Abril 2023 ( Freelancer 1 ano e 4 meses de duração )",
+            "projeto": "Sistema de Gestão para Loja de Material de Construção",
+            "descricao": "Sistema web desenvolvido para otimizar a gestão comercial, financeira e operacional de uma loja de materiais de construção, centralizando informações e automatizando processos internos. Atuei como Desenvolvedor Full Stack, fui responsável pelo levantamento de requisitos, definição da arquitetura da aplicação, desenvolvimento do frontend e backend, modelagem do banco de dados, criação de APIs REST, integrações externas, testes e implantação da solução.",
+            "responsabilidades_funcionalidades": [
+                "Cadastro de produtos, categorias e fornecedores.",
+                "Controle de estoque com entradas, saídas e inventário.",
+                "Gestão de compras e pedidos de reposição.",
+                "Emissão de orçamentos e pedidos de venda.",
+                "Cadastro e gerenciamento de clientes.",
+                "Controle financeiro de contas a pagar e receber.",
+                "Relatórios de vendas, estoque e desempenho comercial.",
+                "Painel administrativo com indicadores de negócio."
+            ],
+            "stacks": "Vue.js, TypeScript, MySQL, Docker, Git e GitHub, APIs REST, PHP, Slim Framework, Cloud Computing AWS",
+            "resultado_alcancados": [
+                "Automatização dos processos de vendas e controle de estoque.",
+                "Redução de divergências em inventário e movimentações.",
+                "Maior agilidade na geração de orçamentos e pedidos.",
+                "Centralização das informações operacionais e financeiras.",
+                "Melhoria da produtividade e da gestão estratégica da empresa."
+            ],
+            "imagem": "loja_material.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio e estou interessado em saber mais sobre o projeto: Sistema de Gestão para Loja de Material de Construção"
+        },
+        {
+            "periodo": "Novembro 2021 - Atual ( Contrato CLT )",
+            "projeto": "Startup",
+            "descricao": "Solução desenvolvida para apoiar órgãos públicos na digitalização e automação de processos administrativos, proporcionando maior eficiência operacional, transparência e controle das informações. Atuando como Desenvolvedor Full Stack, participei de todo o ciclo de desenvolvimento da solução, desde a análise de requisitos até a implantação em produção. Responsável pela construção de interfaces web, desenvolvimento de APIs, modelagem de banco de dados, integrações entre sistemas, testes e manutenção evolutiva da plataforma.",
+            "responsabilidades_funcionalidades": [
+                "Gestão de processos administrativos.",
+                "Gestão de usuários e permissões.",
+                "Relatórios e indicadores gerenciais.",
+                "Integrações com sistemas governamentais.",
+                "Auditoria e rastreabilidade de operações."
+            ],
+            "stacks": "React, TypeScript, PostgreSQL, Docker, Git, REST APIs, CI/CD, PHP, Slim Framework.",
+            "resultado_alcancados": [
+                "Digitalização de processos anteriormente realizados de forma manual.",
+                "Redução do tempo de execução de atividades administrativas.",
+                "Centralização e segurança das informações institucionais."
+            ],
+            "imagem": "startup.png",
+            "link_mensagem_whatsapp": "Ola, acabei de ver seu portfólio, e notei que atualmente trabalha como clt em um startup, gostaria de fazer uma proposta de emprego."
         }
     ],
     "modelo": [

@@ -1,9 +1,5 @@
 <script setup lang="ts">
 
-
-
-
-
 export interface Projeto {
     periodo: string
     projeto: string
