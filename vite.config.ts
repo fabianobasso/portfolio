@@ -24,13 +24,12 @@ export default defineConfig(({ mode }) => {
                         dest: './assets',
                         rename: { stripBase: 2 }
                     },
-                    // {
-                    //     src: './src/assets/img/*',
-                    //     dest: './assets',
-                    //     rename: { stripBase: 2 }
-                    // },
                     {
                         src: './google5e378ff5734c84cd.html',
+                        dest: '.'
+                    },
+                    {
+                        src: './sitemap.xml',
                         dest: '.'
                     }
                 ]
