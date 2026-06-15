@@ -13,12 +13,17 @@ export interface Projeto {
 
 defineProps<{ projeto: Projeto }>()
 
+const getImageUrl = (nome: string) => {
+    console.log(import.meta.url)
+    return new URL(`../../assets/img/${nome}`, import.meta.url).href
+}
+
 </script>
 
 <template>
     <div class="card-projeto">
         <div class="imagem-projeto">
-            <img :src="`/src/assets/img/${projeto.imagem}`" alt="Imagem do Projeto">
+            <img :src="getImageUrl(projeto.imagem)" alt="Imagem do Projeto">
         </div>
         <div class="periodo-projeto">
             <p class="data">{{ projeto.periodo }}</p>

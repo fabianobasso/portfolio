@@ -11,15 +11,6 @@ export default defineConfig(({ mode }) => {
     return {
         plugins: [
             vue(),
-            {
-                name: 'mudar-local-imagem-build',
-                transformIndexHtml(html) {
-                    return html.replace(
-                        /\/src\/assets\/img\//g,
-                        './assets/img/'
-                    )
-                }
-            },
             tailwindcss(),
             viteStaticCopy({
                 targets: [
@@ -33,11 +24,11 @@ export default defineConfig(({ mode }) => {
                         dest: './assets',
                         rename: { stripBase: 2 }
                     },
-                    {
-                        src: './src/assets/img/*',
-                        dest: './assets',
-                        rename: { stripBase: 2 }
-                    },
+                    // {
+                    //     src: './src/assets/img/*',
+                    //     dest: './assets',
+                    //     rename: { stripBase: 2 }
+                    // },
                     {
                         src: './google5e378ff5734c84cd.html',
                         dest: '.'
