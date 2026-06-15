@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
                 name: 'mudar-local-imagem-build',
                 transformIndexHtml(html) {
                     return html.replace(
-                        '/\/src\/assets\/img\//g',
+                        /\/src\/assets\/img\//g,
                         './assets/img/'
                     )
                 }
