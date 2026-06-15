@@ -11,29 +11,32 @@ export default defineConfig(({ mode }) => {
     return {
         plugins: [
             vue(),
-            // {
-            //     name: 'mudar-local-imagem-build',
-            //     transformIndexHtml(html) {
-            //         return html.replace(
-            //             '/\/src\/assets\/img\//g',
-            //             './assets/img/'
-            //         )
-            //     }
-            // },
+            {
+                name: 'mudar-local-imagem-build',
+                transformIndexHtml(html) {
+                    return html.replace(
+                        '/\/src\/assets\/img\//g',
+                        './assets/img/'
+                    )
+                }
+            },
             tailwindcss(),
             viteStaticCopy({
                 targets: [
                     {
-                        src: './src/assets/json/*.json',
-                        dest: 'assets/json'
+                        src: './src/assets/json/*',
+                        dest: './assets',
+                        rename: { stripBase: 2 }
                     },
                     {
-                        src: './src/assets/cv/*.pdf',
-                        dest: 'assets/cv'
+                        src: './src/assets/cv/*',
+                        dest: './assets',
+                        rename: { stripBase: 2 }
                     },
                     {
-                        src: './src/assets/img/*.png',
-                        dest: 'assets/img'
+                        src: './src/assets/img/*',
+                        dest: './assets',
+                        rename: { stripBase: 2 }
                     },
                     {
                         src: './google5e378ff5734c84cd.html',
