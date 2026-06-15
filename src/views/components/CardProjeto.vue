@@ -11,7 +11,7 @@ export interface Projeto {
     link_mensagem_whatsapp: string
 }
 
-const props = defineProps<{ projeto: Projeto }>()
+defineProps<{ projeto: Projeto }>()
 
 </script>
 

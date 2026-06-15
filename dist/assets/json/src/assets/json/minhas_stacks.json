@@ -1,0 +1,6 @@
+{
+    "Frontend": ["React", "React Native", "Vue", "Html", "Css", "Sass"],
+    "Backend": ["PHP", "Slim Framework", "Doctrine", "TypeScript", "JavaScript", "Express Js", "TypeOrm"],
+    "Banco De Dados": ["PostgreSQL", "Mysql", "MariaDb", "MongoDb", "Sqlite"],
+    "Devops": ["Docker", "Jenkins", "Bitbucket Pipelines", "GitHub Actions"]
+}

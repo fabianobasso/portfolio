@@ -17,6 +17,10 @@ export default defineConfig(({ mode }) => {
                     {
                         src: './src/assets/json/*.json',
                         dest: 'assets/json'
+                    },
+                    {
+                        src: './src/assets/cv/*.pdf',
+                        dest: 'assets/cv'
                     }
                 ]
             })
