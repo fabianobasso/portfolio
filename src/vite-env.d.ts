@@ -1,12 +1,6 @@
 /// <reference types="vite/client" />
-import type { readonly } from 'vue'
-
-interface ImportMetaEnv {
-    readonly VITE_APP: string
-    readonly VITE_URL_PUBLIC_NGROK: string
-    readonly VITE_PORT_MASTER_SERVER: number
-}
-
-interface ImportMeta {
-    readonly env: ImportMetaEnv
+declare module '*.vue' {
+    import type { DefineComponent } from 'vue'
+    const component: DefineComponent<object, object, unknown>
+    export default component
 }
