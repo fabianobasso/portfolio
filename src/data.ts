@@ -153,7 +153,7 @@ const pt = {
             empresa: 'Evva Tecnologia',
             contexto: 'GovTech · São Paulo e Região',
             itens: [
-                'Empresa privada de tecnologia contratada por município via licitação; atuação no sistema de educação, utilizado pela rede municipal de ensino (escolas).',
+                'Empresa privada de tecnologia; atuação no sistema de educação, utilizado pela rede municipal de ensino (escolas).',
                 'Desenvolvimento de aplicações web, dashboards gerenciais, APIs REST e integrações com sistemas internos e serviços externos, incluindo Redis (cache) e AWS (infraestrutura em nuvem), e integrações de mensageria via Twilio (SMS/WhatsApp); modelagem e otimização de bancos de dados.',
                 'Implementação de automações e interfaces responsivas, com foco em desempenho, segurança, escalabilidade e qualidade de código; uso de IA como apoio à análise, revisão e documentação.'
             ]
@@ -164,7 +164,7 @@ const pt = {
             empresa: 'Troupe Tecnologia',
             contexto: 'GovTech · São Paulo e Região',
             itens: [
-                'Mais de quatro anos em empresa privada de tecnologia contratada por municípios via licitação, atuando em dois sistemas: saúde (usado por hospitais e UPAs municipais) e educação (usado pela rede municipal de ensino).',
+                'Mais de quatro anos em empresa privada de tecnologia, atuando em dois sistemas: saúde (usado por hospitais e UPAs municipais) e educação (usado pela rede municipal de ensino).',
                 'Desenvolvimento e manutenção de aplicações web, sistemas de gestão, dashboards, APIs REST e integrações entre sistemas, com modelagem e otimização de bancos de dados.',
                 'Liderança técnica no ciclo completo das soluções, aplicando práticas de segurança, desempenho, escalabilidade e qualidade de código.'
             ]
@@ -451,7 +451,7 @@ const en: typeof pt = {
             empresa: 'Evva Tecnologia',
             contexto: 'GovTech · São Paulo area',
             itens: [
-                'Private technology company hired by a city government through public bidding; working on the education system used by the municipal school network.',
+                'Private technology company; working on the education system used by the municipal school network.',
                 'Development of web applications, management dashboards, REST APIs and integrations with internal systems and external services, including Redis (cache) and AWS (cloud infrastructure), and messaging integrations via Twilio (SMS/WhatsApp); database modeling and optimization.',
                 'Implementation of automations and responsive interfaces focused on performance, security, scalability and code quality; use of AI to support analysis, review and documentation.'
             ]
@@ -462,7 +462,7 @@ const en: typeof pt = {
             empresa: 'Troupe Tecnologia',
             contexto: 'GovTech · São Paulo area',
             itens: [
-                'Over four years at a private technology company hired by city governments through public bidding, working on two systems: health (used by municipal hospitals and emergency care units) and education (used by the municipal school network).',
+                'Over four years at a private technology company, working on two systems: health (used by municipal hospitals and emergency care units) and education (used by the municipal school network).',
                 'Development and maintenance of web applications, management systems, dashboards, REST APIs and system integrations, with database modeling and optimization.',
                 'Technical leadership across the full solution lifecycle, applying security, performance, scalability and code quality practices.'
             ]
